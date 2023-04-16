@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add student</title>
+</head>
+<body>
+    <h1>Add Student</h1>
+    <form method="post" enctype="multipart/form-data">
+        <label>Name: <input type="text" name="name"></label><br>
+        <label>Enrollment Number: <input type="text" name="enrollment_number"></label><br>
+        <label>Cohort Number: <input type="text" name="cohortno"></label><br>
+        <label>Field: <input type="text" name="Field"></label><br>
+        <label>Course: <input type="text" name="course"></label><br>
+        <label>Image: <input type="file" id="image_input" accept="image/*" capture="camera"></label><br>
+        <input type="hidden" name="image_data" id="image_data">
+        <button type="submit">Add Student</button>
+    </form>
+    <script>
+        // Convert the captured image to base64 before submitting the form
+        document.getElementById('image_input').addEventListener('change', function (event) {
+            const reader = new FileReader();
+            reader.onload = function () {
+                document.getElementById('image_data').value = reader.result;
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        });
+    </script>
+</body>
+</html>
+
+  
