@@ -9,7 +9,7 @@ from flask import Flask, render_template, request, redirect
 from PIL import Image
 from attendance import mark_attendance
 
-app = Flask(__name__)
+app = Flask(__app__)
 
 @app.route('/')
 def index():
