@@ -17,10 +17,13 @@ imutils
 
 
 ###Installation
--Clone this repository to your local machine.
--Install the required dependencies using the command pip install -r requirements.txt.
--Run the app using the command python app.py
--Navigate to http://localhost:5000 in your web browser to access the application.
+1.Clone this repository to your local machine.
+
+2.Install the required dependencies using the command pip install -r requirements.txt.
+
+3.Run the app using the command python app.py
+
+4.Navigate to http://localhost:5000 in your web browser to access the application.
 
 
 **#Usage**
