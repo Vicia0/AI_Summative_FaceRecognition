@@ -1,9 +1,13 @@
-# AI_Summative_FaceRecognition
-**#Face Recognition Attendance System**
+###AI_Summative_FaceRecognition attendance system using python and openCV
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) 
+
+###Face Recognition Attendance System
 
 This project is a face recognition attendance system that uses a webcam to capture images of students and recognize their faces to mark attendance. The system is built using Python, Flask, OpenCV, and face recognition libraries.
 
-**#Requirements**
+###Requirements
 
 Python 3.6+
 Flask
@@ -12,15 +16,12 @@ face recognition
 imutils
 
 
-**#Installation**
+###Installation
 
-1.Clone this repository to your local machine.
-
-2.Install the required dependencies using the command pip install -r requirements.txt.
-
-3.Run the app using the command python app.py
-
-4.Navigate to http://localhost:5000 in your web browser to access the application.
+-Clone this repository to your local machine.
+-Install the required dependencies using the command pip install -r requirements.txt.
+-Run the app using the command python app.py
+-Navigate to http://localhost:5000 in your web browser to access the application.
 
 
 **#Usage**
