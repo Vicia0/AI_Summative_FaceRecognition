@@ -26,25 +26,37 @@ imutils
 **#Usage**
 
 1.Register students for a course by adding their name and image to the face_data directory.
+
 2.Navigate to the attendance page and click the Start Attendance button to begin taking attendance.
+
 3.The system will capture an image of each student and mark attendance for those whose faces are recognized.
+
 4.The attendance data is stored in a CSV file in the data directory.
 
 
 **#Hosting on a Local Server**
 
-1.To host this application on a local server, follow these steps:
-2.Install a web server software such as Apache or Nginx.
-3.Install Python and the required dependencies.
-4.Configure the web server to serve the Flask application.
-5.Start the web server and navigate to the application URL in your web browser.
+To host this application on a local server, follow these steps:
+
+1.Install a web server software such as Apache or Nginx.
+
+2.Install Python and the required dependencies.
+
+3.Configure the web server to serve the Flask application.
+
+4.Start the web server and navigate to the application URL in your web browser.
 
 
 **#Hosting on Cloud**
 
 1.To host this application on a cloud service such as AWS or Azure, follow these steps:
+
 2.Create a new virtual machine instance and install the required dependencies.
+
 3.Configure the virtual machine firewall to allow incoming HTTP requests.
+
 4.Deploy the Flask application to the virtual machine using a web server such as Apache or Nginx.
+
 5.Configure the DNS to point to the virtual machine public IP address.
+
 6.Access the application from the DNS URL in your web browser.
