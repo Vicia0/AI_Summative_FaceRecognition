@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Attendance Report</title>
+</head>
+<body>
+	<h1>Attendance Report</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Enrollment Number</th>
+				<th>Cohort Number</th>
+				<th>Name</th>
+				<th>Field</th>
+				<th>Course</th>
+				<th>Date</th>
+				<th>Status</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for attendance in attendance_report %}
+			<tr>
+				<td>{{ attendance.enrollment_number }}</td>
+				<td>{{ attendance.cohort_number }}</td>
+				<td>{{ attendance.name }}</td>
+				<td>{{ attendance.field }}</td>
+				<td>{{ attendance.course }}</td>
+				<td>{{ attendance.date }}</td>
+				<td>{{ attendance.status }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</body>
+</html>

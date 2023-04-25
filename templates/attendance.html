@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <script>
+        function captureImage() {
+            const video = document.getElementById("video");
+            const canvas = document.createElement("canvas");
+            const context = canvas.getContext("2d");
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            const dataUrl = canvas.toDataURL("image/jpeg");
+            document.getElementById("image_data").value = dataUrl;
+            document.getElementById("submit_button").disabled = false;
+        }
+    </script>
+</head>
+<body>
+    <h1>Take Attendance</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <button onclick="captureImage()">Capture</button>
+	<form action="/save_attendance" method="post">
+        <input type="hidden" name="image_data" id="image_data" value="">
+        <button type="submit" id="submit_button" disabled>Submit</button>
+    </form>
+    <script>
+        const video = document.getElementById("video");
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then((stream) => {
+                video.srcObject = stream;
+            })
+            .catch((err) => {
+                console.error(err);
+            });
+    </script>
+</body>
+</html>

@@ -1,24 +1,24 @@
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <ul class="flash-messages">
+        {% for message in messages %}
+            <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attendance App</title>
+    <title>Face Recognition Attendance System</title>
 </head>
-<body>
-    <h1>Attendance App</h1>
-    <h2>Add New Student</h2>
-    <form action="/add_student" method="post" enctype="multipart/form-data">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="photo">Upload Photo:</label>
-        <input type="file" id="photo" name="photo"><br><br>
-        <input type="submit" value="Add Student">
-    </form>
-
-    <h2>Take Attendance</h2>
-    <form action="/take_attendance" method="post">
-        <input type="submit" value="Start Camera">
-    </form>
-</body>
+  <body>
+    <h1>Welcome to ALU Face Recognition Attendance System</h1>
+    <div>
+      <a href="/add_student"><button>Add Student</button></a><br><br>
+      <a href="/attendance"><button>Take Attendance</button></a>
+    </div>
+  </body>
 </html>
