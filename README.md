@@ -14,46 +14,34 @@ imutils
 
 **#Installation**
 
-Clone this repository to your local machine.
-Install the required dependencies using the command pip install -r requirements.txt.
-Run the app using the command python app.py
-Navigate to http://localhost:5000 in your web browser to access the application.
+1.Clone this repository to your local machine.
+2.Install the required dependencies using the command pip install -r requirements.txt.
+3.Run the app using the command python app.py
+4.Navigate to http://localhost:5000 in your web browser to access the application.
 
 
 **#Usage**
 
-Register students for a course by adding their name and image to the face_data directory.
-
-Navigate to the attendance page and click the Start Attendance button to begin taking attendance.
-
-The system will capture an image of each student and mark attendance for those whose faces are recognized.
-
-The attendance data is stored in a CSV file in the data directory.
+1.Register students for a course by adding their name and image to the face_data directory.
+2.Navigate to the attendance page and click the Start Attendance button to begin taking attendance.
+3.The system will capture an image of each student and mark attendance for those whose faces are recognized.
+4.The attendance data is stored in a CSV file in the data directory.
 
 
 **#Hosting on a Local Server**
 
-To host this application on a local server, follow these steps:
-
-Install a web server software such as Apache or Nginx.
-
-Install Python and the required dependencies.
-
-Configure the web server to serve the Flask application.
-
-Start the web server and navigate to the application URL in your web browser.
+1.To host this application on a local server, follow these steps:
+2.Install a web server software such as Apache or Nginx.
+3.Install Python and the required dependencies.
+4.Configure the web server to serve the Flask application.
+5.Start the web server and navigate to the application URL in your web browser.
 
 
 **#Hosting on Cloud**
 
-To host this application on a cloud service such as AWS or Azure, follow these steps:
-
-Create a new virtual machine instance and install the required dependencies.
-
-Configure the virtual machine firewall to allow incoming HTTP requests.
-
-Deploy the Flask application to the virtual machine using a web server such as Apache or Nginx.
-
-Configure the DNS to point to the virtual machine public IP address.
-
-Access the application from the DNS URL in your web browser.
+1.To host this application on a cloud service such as AWS or Azure, follow these steps:
+2.Create a new virtual machine instance and install the required dependencies.
+3.Configure the virtual machine firewall to allow incoming HTTP requests.
+4.Deploy the Flask application to the virtual machine using a web server such as Apache or Nginx.
+5.Configure the DNS to point to the virtual machine public IP address.
+6.Access the application from the DNS URL in your web browser.
