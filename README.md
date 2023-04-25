@@ -17,7 +17,6 @@ imutils
 
 
 ###Installation
-
 -Clone this repository to your local machine.
 -Install the required dependencies using the command pip install -r requirements.txt.
 -Run the app using the command python app.py
