@@ -29,6 +29,8 @@ import csv
 import os
 from datetime import datetime
 from imutils.video import VideoStream
+from utils import *
+
 
 app = Flask(__name__)
 app.secret_key = 'secretkey'
@@ -58,7 +60,6 @@ for file in os.listdir('face_data'):
 # Load the face detection cascade
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 # Initialize the camera
 try:
