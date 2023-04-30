@@ -1,4 +1,4 @@
-###AI_Summative_FaceRecognition attendance system using python and openCV
+###AI_Summative_FaceRecognition attendance system using python and Flask
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) 
@@ -64,3 +64,13 @@ To host this application on a local server, follow these steps:
 5.Configure the DNS to point to the virtual machine public IP address.
 
 6.Access the application from the DNS URL in your web browser.
+
+
+
+Document proposal: https://docs.google.com/document/d/1p0gUKjGO8SdbNUe-hio-Gi68quETbM1o-0yoYeNzOTE/edit#heading=h.3dy6vkm
+
+Link to the explanatory video:
+
+Link to the Deployed app:
+
+Link to the hosted app: 
