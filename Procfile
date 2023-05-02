@@ -1,1 +1,2 @@
-web: python app.py
+web: xvfb-run python app.py
+
