@@ -30,6 +30,8 @@ import os
 from datetime import datetime
 from imutils.video import VideoStream
 from utils import *
+import tkinter
+import Tkinter
 
 
 app = Flask(__name__)
