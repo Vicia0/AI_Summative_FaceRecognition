@@ -1,1 +1,1 @@
-web: python attendance.py
+web: python app.py
