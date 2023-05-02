@@ -10,7 +10,6 @@ from flask import Flask, render_template, request, flash
 import cv2
 import face_recognition
 import pickle
-import tkinter
 from tkinter import messagebox
 from PIL import Image, ImageTk
 import gspread
@@ -30,7 +29,7 @@ import os
 from datetime import datetime
 from imutils.video import VideoStream
 from utils import *
-import Tkinter
+
 
 
 app = Flask(__name__)
