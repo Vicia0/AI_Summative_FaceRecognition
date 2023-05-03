@@ -71,6 +71,5 @@ Document proposal: https://docs.google.com/document/d/1p0gUKjGO8SdbNUe-hio-Gi68q
 
 Link to the explanatory video:
 
-Link to the Deployed app:
+Link to the Deployed app:https://ai-summative-face-recognition.herokuapp.com/
 
-Link to the hosted app: 
