@@ -69,7 +69,7 @@ To host this application on a local server, follow these steps:
 
 Document proposal: https://docs.google.com/document/d/1p0gUKjGO8SdbNUe-hio-Gi68quETbM1o-0yoYeNzOTE/edit#heading=h.3dy6vkm
 
-Link to the explanatory video:
+Link to the explanatory video: https://drive.google.com/file/d/1wGgeE0bTXOjF85eyagof3ceS9QFaE4Ya/view?usp=sharing
 
 Link to the Deployed app:https://ai-summative-face-recognition.herokuapp.com/
 
